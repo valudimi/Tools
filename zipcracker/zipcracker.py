@@ -26,7 +26,6 @@ def crack(archive: zipfile, dictionary: str):
     Run the wordlist attack on an available zipfile.
     """
 
-
     try:
         with open(dictionary, 'rb') as f:
             # If file exists, make 'extracted/' directory
